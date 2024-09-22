@@ -19,7 +19,7 @@ def main():
         if choice == "1":
             name = input("Enter recipe name: ")
             ingredients = input("Enter ingredients: ")
-            instructions = input("Enter instruct ions: ")
+            instructions = input("Enter instructions: ")
             category_id = int(input("Enter category ID: "))
             insert_recipe(name, ingredients, instructions, category_id)
             print("Recipe added successfully!")
